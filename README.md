@@ -20,21 +20,21 @@
 
 
 #### file list:<br/>
-[supercache.cpp]( supercache/customcache/supercache.cpp )
+[supercache.cpp]( /customcache/supercache.cpp )
 - C++ source code
 - macro TEST will enable compilation without python bindings and runs multithreaded test of the cache
 
-[callgrind.out]( supercache/customcache/callgrind.out )
+[callgrind.out]( /customcache/callgrind.out )
 - callgrind output generated while running the cache with macro TEST
 
 `supercache/customcache/doc/`
 - doxygen documentation
 
-[views.py]( supercache/cachetest/views.py )
+[views.py]( /cachetest/views.py )
 - example page
 - cached view
 - cached values
 
-[settings.py](https://github.com/alespejznoch/supercache/blob/master/mysite/settings.py)
+[settings.py](/mysite/settings.py)
 - general settings
 - here you can set caching of whole pages
